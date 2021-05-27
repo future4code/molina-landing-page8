@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+header{
+    height: 50px;
+    width: 100%;
+    background:#ffbd59 ;
+    text-align: center;
+}
+
+ #titulo{
+    font-weight: bolder;
+    height: auto;
+    background: white;
+    text-align: center;
+}
+#content-main{
+    
+}
+
+body{
+    width: 100%;
+    height: auto;
+    background: white;
+}
+
+.transicao {
+    background:#ff914d;
+    margin-bottom:50px ;
+    padding: 50px 50px;
+    display: block;
+    align-items: center;
+    width: 100%;
+  
+}
+.img {
+    height: auto;
+    width: 800px;
+  
+}
+
+.transicao2{
+    display:block;
+    border: solid 1px black;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.texto{
+   font-size:24px ;
+   border: solid 1px ;
+   width: 500px; 
+   display: block;
+   
+}
+
+section{
+    width: 100%;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+}
