@@ -1,0 +1,38 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+header{
+    height: 70px;
+    background: #ff914d ;
+}
+
+
+.img{
+    border: rgba(255, 68, 0, 0.658) solid 1px;
+    height: 150px;
+    border-radius: 100px;
+}
+
+.container-foto{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background: #ffbd59;
+    text-align: center;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin: auto;
+    background: #ff914d;
+    padding:  40px;
+}
+footer a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}

@@ -11,7 +11,7 @@ header{
     text-align: center;
 }
 #img-header{
-    width: 100%;
+    width: 1200px;
     height: 400px;
 }
 
@@ -27,8 +27,7 @@ header{
     background:whitesmoke;
     width: 100%;
     height: 50px;
-    border: 1px solid;
-    
+
 }
 body{
     width: 100%;
@@ -38,11 +37,10 @@ body{
 
 .transicao {
     background:#ff914d;
-    margin-bottom:50px ;
-    padding: 50px 50px;
-    display: block;
-    align-items: center;
+    display:block;  
     width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
   
 }
 .img {
@@ -52,16 +50,17 @@ body{
 }
 
 .transicao2{
-    display:block;
-    border: solid 1px black;
     width: 100%;
     margin-bottom: 40px;
+  
 }
 
 .texto{
+    max-width: 300px;
+    margin: 0 auto;
     font-size: 1.5em;
     flex-wrap: wrap;
-    text-align: center;
+    
 
    
 }
@@ -72,5 +71,15 @@ section{
 
 footer{
     display: flex;
-    justify-content: center;
+
+}
+footer{
+    width: 100%;
+    margin: auto;
+    background: #ff914d;
+    padding:  40px;
+}
+footer a {
+    text-decoration: none;
+    color: black;
 }
