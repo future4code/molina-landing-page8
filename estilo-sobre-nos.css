@@ -71,5 +71,15 @@ section{
 
 footer{
     display: flex;
-    justify-content: center;
+
+}
+footer{
+    width: 100%;
+    margin: auto;
+    background: #ff914d;
+    padding:  40px;
+}
+footer a {
+    text-decoration: none;
+    color: black;
 }
