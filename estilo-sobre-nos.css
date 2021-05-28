@@ -27,8 +27,7 @@ header{
     background:whitesmoke;
     width: 100%;
     height: 50px;
-    border: 1px solid;
-    
+
 }
 body{
     width: 100%;
@@ -38,8 +37,7 @@ body{
 
 .transicao {
     background:#ff914d;
-    display:block;
-    border: solid 1px black;
+    display:block;  
     width: 100%;
     margin-bottom: 40px;
     text-align: center;
@@ -52,16 +50,17 @@ body{
 }
 
 .transicao2{
-    display:block;
-    border: solid 1px black;
     width: 100%;
     margin-bottom: 40px;
+  
 }
 
 .texto{
+    max-width: 300px;
+    margin: 0 auto;
     font-size: 1.5em;
     flex-wrap: wrap;
-    text-align: center;
+    
 
    
 }
