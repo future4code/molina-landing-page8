@@ -11,7 +11,7 @@ header{
     text-align: center;
 }
 #img-header{
-    width: 100%;
+    width: 1200px;
     height: 400px;
 }
 
@@ -38,11 +38,11 @@ body{
 
 .transicao {
     background:#ff914d;
-    margin-bottom:50px ;
-    padding: 50px 50px;
-    display: block;
-    align-items: center;
+    display:block;
+    border: solid 1px black;
     width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
   
 }
 .img {
