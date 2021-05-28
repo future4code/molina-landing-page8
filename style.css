@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,300&display=swap');
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
 * {
     margin: 0px;
     padding: 0px;
@@ -12,7 +18,12 @@ header {
     font-size: 1vw;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
+}
+
+a { 
+    text-decoration: none;
+    color: white;    
 }
 
 
@@ -67,12 +78,79 @@ p {
     font-size: 20px;
 }
 
-.complexidade img {
+/* .complexidade img {
     max-width: 100vw;
     max-height: 60vh;
     margin-top: 80px;
+} */
+
+.complexidade {
+    margin-top: 100px;
+    background-image: url(http://www.asomadetodosafetos.com/content/uploads/2017/10/era-voce-quando-viam-sorrindo-olhando-o-celular-e-nao-sabiam-o-porque.jpg);
+    max-width: 100vw;
+    height: 450px;
 }
 
 .complexidade>h2 {
     margin:0px 0px 24px;
+    padding-top: 60px;
+    font-size: 40px;
+    width: 800px;
+    margin-left: 40px;
+}
+
+.anuidade {
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.anuidade>h1 {
+    font-size: 55px;
+    margin-left: 50px;
+    margin-bottom: 40px;
+}
+
+
+
+.anuidade>img {
+    width: 300px;
+    ali
+}
+
+#anuidade-h2 {
+    margin-left: 120px;
+}
+
+
+#burocracia-img {
+    width: 300px
+}
+
+.burocracia>h2 {
+    margin-left: 40px;
+}
+
+#burocracia-h1 {
+    font-size: 40px;
+    margin-top: 20px;
+    padding: 40px;
+    
+}
+
+.container-burocracia {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #FF914D;
+    padding-bottom: 100vh;
+    width: 100vw;
+}
+
+#footer {
+   
 }
