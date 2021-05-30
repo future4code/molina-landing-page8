@@ -14,8 +14,8 @@ body {
 /* HEADER */
 
 header {
-    background-color: #D25209;
-    font-size: 8px;
+    background-color: #D96632;
+    font-size: 12px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -28,7 +28,7 @@ a {
 
 
 header img { 
-    width: 45px;
+    width:60px;
 }
 
 /* MAIN  */
@@ -46,7 +46,7 @@ header img {
 .primeira-foto {
     padding-bottom: 95vh;
     background-repeat: no-repeat;
-    background-image: linear-gradient(45deg, #d25209, #F7CA89);
+    background-image: url("./imagens/maosegurandocelularamarela.jpg");
 }
 
 #celular-inicio {
@@ -287,6 +287,14 @@ div>h3 {
 
 @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
     
+    header {
+        background-color: #D96632;
+        font-size: 6px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
     .primeira-foto {
         padding-bottom: 80vh;
         background-repeat: no-repeat;
@@ -298,7 +306,7 @@ div>h3 {
         background-color: rgba(0, 0, 0, 0.1);
         padding: 20px;
         border-radius: 20px;
-        margin-left: 60px;
+        margin-left: 40px;
         color: white;
         /* margin-left: 48px; */
 
@@ -433,11 +441,7 @@ div>h3 {
         margin-right: 25px;
         margin-top: 40px;
     }
-    
-    #burocracia-id {
-        margin-left: 30px;
-    }
-    
+  
     .burocracia>h2 {
         margin-left: 40px;
         font-size: 12px;
@@ -460,8 +464,53 @@ div>h3 {
         background-repeat: no-repeat;
         background-image: url(./imagens/presente.jpg);
     }
+
+    #logo-f4bank {
+        width: 400px;
+        margin-left: -70px;
+        /* max-width: 100vw; */
+        
+    }
     
 }
+
+@media screen and (min-device-width : 1200px) {
+    /* computadores */
+
+    .burocracia>h2 {
+        margin-left: 40px;
+        font-size: 20px;
+    }
+
+    #burocracia-id {
+        margin-left: 120px;
+        margin-top: 0px;
+        font-size: 24px;
+    }
+
+    .container-burocracia {
+        display: flex;
+    }
+
+    #burocracia-img {
+        width: 300px;
+        height: 300px;
+        margin-right: 0px;
+        margin-top: 0px;
+    }
+
+    .anuidade>img {
+        width: 300px;
+        margin-top: 30px;
+        margin-right: 15px;
+    }
+
+    h2 {
+        font-size: ;
+    }
+
+    
+    }
     
     
 
