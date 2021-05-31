@@ -4,7 +4,7 @@
 Projeto criado em HTML/CSS com intuito de criar uma landing page de uma empresa de entrega ficticía "F4BANK".
 
 ✨ Surge
-gifted-airport.surge.sh
+normal-advice.surge.sh/
 
 🚀 Tecnologias
 As seguintes ferramentas foram usadas na construção do projeto:
