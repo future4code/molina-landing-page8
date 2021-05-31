@@ -28,10 +28,10 @@ header{
     background:#ffbd59 ;
     text-align: center;
 }
-#img-header{
+/* #img-header{
     width: 1200px;
     height: 400px;
-}
+} */
 
  #titulo{
     font-weight: bolder;
@@ -42,16 +42,18 @@ header{
 }
 
 #quebra-de-pagina {
-    background:whitesmoke;
-    width: 100%;
-    height: 50px;
-
+    margin-bottom: 30px;
+    border: 1px solid #d96632;
+    border-bottom: none;
+    width: 100vw;
 }
 body{
     width: 100%;
     height: auto;
     background: white;
 }
+
+        img-1 {width: 400px;}
 
 .transicao {
     background:#ff914d;
@@ -63,8 +65,9 @@ body{
 }
 .img {
     height: auto;
-    width: 800px;
-  
+    width: 400px;
+    margin-top:20px;
+    margin-bottom: 20px;
 }
 
 .transicao2{
@@ -73,14 +76,33 @@ body{
   
 }
 
+section {
+    display: flex;
+}
+
+h2,p {font-size: 25px;
+    max-width: 50vw;    
+}
+
 .texto{
-    max-width: 300px;
+    padding-bottom: 20px;
+    max-width: 50vw;
     margin: 0 auto;
-    font-size: 1.5em;
+    font-size: 20px;
     flex-wrap: wrap;
     
 
-   
+.primeira-sec {
+    display: flex;
+}
+
+.texto2>h2,p {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.imagem-fim {
+    margin-top: 50px;
 }
 
 section{
@@ -100,4 +122,11 @@ footer{
 footer a {
     text-decoration: none;
     color: black;
+}
+
+@media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+header {
+    background-color: #d96632;
+}
 }
