@@ -1,0 +1,5 @@
+
+window[window["TiktokAnalyticsObject"]].instance("C1Q5MVUHLSU5AAHCLG10").setAdvancedMatchingAvailableProperties({"email":true,"phone_number":true});
+window[window["TiktokAnalyticsObject"]].instance("C1Q5MVUHLSU5AAHCLG10").setPixelInfo && window[window["TiktokAnalyticsObject"]].instance("C1Q5MVUHLSU5AAHCLG10").setPixelInfo({status: 0, name: "Nubank Pixel", advertiserID: "6943286702861484033", setupMode: 1, partner: ""});
+window[window["TiktokAnalyticsObject"]].setPCMDomain && window[window["TiktokAnalyticsObject"]].setPCMDomain("nubank.com.br");
+window[window["TiktokAnalyticsObject"]].setPCMConfig && window[window["TiktokAnalyticsObject"]].setPCMConfig(null);
